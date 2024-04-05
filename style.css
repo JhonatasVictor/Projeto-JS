@@ -30,7 +30,7 @@ header > h1 {
     font-size: 1.4em;
   }
   input {
-    width: 70px;
+    width: 47px;
     height: 20px;
   }
   #res {
@@ -38,9 +38,9 @@ header > h1 {
   }
   input[type="submit"] {
     width: 17%;
-    height: 40px;
+    height: 38px;
     font-weight: bolder;
-    font-size: 0.7em;
+    font-size: 0.8em;
     background-color: black;
     color: white;
     border: none;

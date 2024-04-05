@@ -30,7 +30,7 @@ header > h1 {
     font-size: 1.4em;
   }
   input {
-    width: 47px;
+    width: 49px;
     height: 20px;
   }
   #res {
@@ -54,7 +54,7 @@ header > h1 {
     text-align: center;
     padding-top: 50px;
     font-weight: bolder;
-    font-size: 1em;
+    font-size: 1.1em;
   }
   a {
     background-color: black;
@@ -67,3 +67,11 @@ header > h1 {
     background-color: rgb(219, 120, 28);
     color: black;
   }
+  #num1 {
+    font-family:monospace;
+    font-size: 1em;
+   }
+   #num2 {
+    font-family: monospace;
+    font-size: 1em;
+   }

@@ -1,0 +1,35 @@
+
+
+@media screen and (min-width: 750px) {
+        body {
+            background-color: rgb(46, 158, 121);
+        }
+    main {
+        width: 50%;
+        height: 170px;
+        background-color: white;
+        color: black;
+       }
+       input {
+        width: 30%;
+        
+        
+       }
+       footer {
+        font-size: 1.5em;
+       }
+       input[type=submit] {
+        width: 45%;
+       }
+       #num1 {
+        font-family:monospace;
+        font-size: 1.1em;
+       }
+       #num2 {
+        font-family: monospace;
+        font-size: 1.1em;
+       }
+       #res {
+        font-size: 1.1em;
+       }
+}

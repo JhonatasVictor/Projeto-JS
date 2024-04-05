@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+       <header>
+        <h1>Calculadora</h1>
+       </header>
+       <main>
+        <div>
+             <p>
+                 Informe o valor 1:<input type="number" name="numero1" id="num1">
+
+                   Informe o valor 2:<input type="number" name="numero2" id="num2">
+                </p>
+                <p><input type="submit" value="Somar" onclick="somar()">
+                <input type="submit" value="Subtrair" onclick="subtrair()">
+                <input type="submit" value="Multiplicar" onclick="multiplicar()">
+                <input type="submit" value="Dividir" onclick="dividir()">
+            </p>
+                
+
+                <div id="res">
+                    aqui vai o resultado...
+                </div>
+       </main>
+       <footer>
+        <p>
+          Projeto criado por <a href="https://github.com/JhonatasVictor" target="_blank">Jhonatas Victor</a>
+       </p>
+    </footer>
+       <script src="calculadora.js">
+
+       </script>
+</body>
+</html>
